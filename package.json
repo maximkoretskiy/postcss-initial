@@ -1,6 +1,6 @@
 {
   "name": "postcss-all-unset",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "PostCSS plugin for all: unset",
   "keywords": [
     "postcss",
@@ -12,17 +12,17 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url":  "https://github.com/maximkoretskiy/postcss-all-unset.git"
+    "url": "https://github.com/maximkoretskiy/postcss-all-unset.git"
   },
   "dependencies": {
     "postcss": "^5.0.2"
   },
   "devDependencies": {
     "gulp-eslint": "1.0.0",
-    "gulp-mocha":  "2.1.3",
-    "mocha":       "2.2.5",
-    "chai":        "3.2.0",
-    "gulp":        "3.9.0"
+    "gulp-mocha": "2.1.3",
+    "mocha": "2.2.5",
+    "chai": "3.2.0",
+    "gulp": "3.9.0"
   },
   "scripts": {
     "test": "gulp"
