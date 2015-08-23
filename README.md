@@ -7,7 +7,7 @@
 [PostCSS] plugin to fallback `all: unset`.
 
 [PostCSS]: https://github.com/postcss/postcss
-[ci-img]:  https://travis-ci.org/maximkoretskiy/postcss-unset.svg
+[ci-img]:  https://travis-ci.org/maximkoretskiy/postcss-all-unset.svg
 [ci]:      https://travis-ci.org/maximkoretskiy/postcss-all-unset
 
 ```css
@@ -17,6 +17,7 @@ a{
 ```
 
 ```css
+a{
   animation: none;
   animation-delay: 0;
   animation-direction: normal;
@@ -164,6 +165,7 @@ a{
   word-spacing: normal;
   z-index: auto;
   all: unset;
+}
 ```
 
 ## Usage
