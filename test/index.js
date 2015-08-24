@@ -16,7 +16,7 @@ function f(name) {
 }
 
 describe('postcss-all-unset', function () {
-  it('Instert default styles', function () {
+  it('Insert default styles', function () {
     test(f('simple'), f('simple.expected'));
   });
 });
