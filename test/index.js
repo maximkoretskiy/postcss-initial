@@ -27,7 +27,7 @@ describe('postcss-all-unset', function () {
     test(
       f('inherited'),
       f('inherited.expected'),
-      { reset: ['inherited'] }
+      { reset: 'inherited' }
     );
   });
 });

@@ -103,16 +103,16 @@ a {
 ## Options
 
 ### reset
-Takes array.  
-Describes what subset of rules should be unseted.  
+Takes `string`.  
+Describes what subset of rules should be unseted.
 Posible subsets: `all`, `inherited`.  
-Default value: `['all']`.  
+Default value: `'all'`.  
 
 ## Usage
 
 ```js
 postcss([ require('postcss-all-unset')({
-  reset: ['inherited'] // reset only inherited rules
+  reset: 'inherited' // reset only inherited rules
 }) ])
 ```
 
