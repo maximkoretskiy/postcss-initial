@@ -10,6 +10,7 @@
 [ci-img]:  https://travis-ci.org/maximkoretskiy/postcss-all-unset.svg
 [ci]:      https://travis-ci.org/maximkoretskiy/postcss-all-unset
 
+
 ```css
 a{
   all: unset;
@@ -99,10 +100,20 @@ a {
 }
 ```
 
+## Options
+
+### reset
+Takes array.  
+Describes what subset of rules should be unseted.  
+Posible subsets: `all`, `inherited`.  
+Default value: `['all']`.  
+
 ## Usage
 
 ```js
-postcss([ require('postcss-all-unset') ])
+postcss([ require('postcss-all-unset')({
+  reset: ['inherited'] // reset only inherited rules
+}) ])
 ```
 
 See [PostCSS] docs for examples for your environment.
