@@ -4,8 +4,9 @@ var fs = require('fs');
 
 var plugin = require('..');
 
-var test = function (input, output) {
-  var css = postcss(plugin).process(input).css;
+var test = function (input, output, opts) {
+  opts = opts || {};
+  var css = postcss(plugin(opts)).process(input).css;
   console.log('css', css);
   expect(css).to.eql(output);
 };
@@ -17,6 +18,16 @@ function f(name) {
 
 describe('postcss-all-unset', function () {
   it('Insert default styles', function () {
-    test(f('simple'), f('simple.expected'));
+    test(
+      f('default'),
+      f('default.expected')
+    );
+  });
+  it('Insert subseted styles - only inherited', function () {
+    test(
+      f('inherited'),
+      f('inherited.expected'),
+      { reset: ['inherited'] }
+    );
   });
 });

@@ -1,0 +1,24 @@
+div {
+  border-collapse: separate;
+  border-spacing: 0;
+  caption-side: top;
+  cursor: auto;
+  direction: ltr;
+  empty-cells: show;
+  font: normal normal normal normal medium normal sans-serif;
+  hyphens: none;
+  letter-spacing: normal;
+  line-height: normal;
+  list-style: disc outside none;
+  tab-size: 8;
+  text-align: inherit;
+  text-align-last: auto;
+  text-indent: 0;
+  text-shadow: none;
+  text-transform: none;
+  visibility: visible;
+  white-space: normal;
+  widows: 0;
+  word-spacing: normal;
+  all: unset;
+}
