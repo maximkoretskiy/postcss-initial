@@ -1,4 +1,4 @@
-# PostCSS Size [![Build Status][ci-img]][ci]
+# PostCSS `all: unset` fallback  [![Build Status][ci-img]][ci]
 
 <img align="right" width="135" height="95"
      title="Philosopher’s stone, logo of PostCSS"
