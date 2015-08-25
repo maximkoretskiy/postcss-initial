@@ -7,7 +7,6 @@ var plugin = require('..');
 var test = function (input, output, opts) {
   opts = opts || {};
   var css = postcss(plugin(opts)).process(input).css;
-  console.log('css', css);
   expect(css).to.eql(output);
 };
 
