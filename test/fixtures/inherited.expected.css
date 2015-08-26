@@ -20,5 +20,5 @@ div {
   white-space: normal;
   widows: 0;
   word-spacing: normal;
-  all: unset;
+  all: initial;
 }

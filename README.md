@@ -1,19 +1,19 @@
-# PostCSS `all: unset` fallback  [![Build Status][ci-img]][ci]
+# PostCSS `all` fallback  [![Build Status][ci-img]][ci]
 
 <img align="right" width="135" height="95"
      title="Philosopher’s stone, logo of PostCSS"
      src="http://postcss.github.io/postcss/logo-leftp.png">
 
-[PostCSS] plugin to fallback `all: unset`.
+[PostCSS] plugin to fallback `all: initial`.
 
 [PostCSS]: https://github.com/postcss/postcss
-[ci-img]:  https://travis-ci.org/maximkoretskiy/postcss-all-unset.svg
-[ci]:      https://travis-ci.org/maximkoretskiy/postcss-all-unset
+[ci-img]:  https://travis-ci.org/maximkoretskiy/postcss-all-property.svg
+[ci]:      https://travis-ci.org/maximkoretskiy/postcss-all-property
 
 
 ```css
 a{
-  all: unset;
+  all: initial;
 }
 ```
 
@@ -96,7 +96,7 @@ a {
   width: auto;
   word-spacing: normal;
   z-index: auto;
-  all: unset;
+  all: initial;
 }
 ```
 
@@ -111,7 +111,7 @@ Default value: `'all'`.
 ## Usage
 
 ```js
-postcss([ require('postcss-all-unset')({
+postcss([ require('postcss-all-initial')({
   reset: 'inherited' // reset only inherited rules
 }) ])
 ```

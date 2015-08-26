@@ -1,7 +1,7 @@
 {
-  "name": "postcss-all-unset",
+  "name": "postcss-all-propeprty",
   "version": "1.1.1",
-  "description": "PostCSS plugin for all: unset",
+  "description": "PostCSS plugin for all propeprty",
   "keywords": [
     "postcss",
     "css",
@@ -12,7 +12,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/maximkoretskiy/postcss-all-unset.git"
+    "url": "https://github.com/maximkoretskiy/postcss-all-propeprty.git"
   },
   "dependencies": {
     "postcss": "^5.0.2"

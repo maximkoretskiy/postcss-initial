@@ -76,5 +76,5 @@ a {
   width: auto;
   word-spacing: normal;
   z-index: auto;
-  all: unset;
+  all: initial;
 }

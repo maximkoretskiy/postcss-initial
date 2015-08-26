@@ -8,7 +8,7 @@ module.exports = postcss.plugin('postcss-all-unset', function (opts) {
   var resetRules = rulesFabric(resetSubset);
   return function (css) {
     css.walkDecls('all', function (decl) {
-      if(decl.value !== 'unset') return;
+      if(decl.value !== 'initial') return;
       resetRules.forEach(function (rule) {
         decl.cloneBefore(rule);
       });
