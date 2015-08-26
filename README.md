@@ -111,7 +111,7 @@ Default value: `'all'`.
 ## Usage
 
 ```js
-postcss([ require('postcss-all-initial')({
+postcss([ require('postcss-all-property')({
   reset: 'inherited' // reset only inherited rules
 }) ])
 ```
