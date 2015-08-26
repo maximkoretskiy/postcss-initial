@@ -117,3 +117,8 @@ postcss([ require('postcss-all-property')({
 ```
 
 See [PostCSS] docs for examples for your environment.
+
+## Backlog 
+
+- display 
+- redifine property

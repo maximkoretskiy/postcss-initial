@@ -44,7 +44,8 @@
   {"prop": "border-bottom-width", "initial": "medium"},
   {
     "prop": "border-collapse", "initial": "separate",
-    "basic": true
+    "basic": true,
+    "inherited": true
   },
   {
     "prop": "border-image", "initial": "none",
@@ -64,7 +65,8 @@
   {"prop": "border-right-width", "initial": "medium"},
   {
     "prop": "border-spacing", "initial": "0",
-    "basic": true
+    "basic": true,
+    "inherited": true
   },
   {"prop": "border-top", "initial": "0"},
   {"prop": "border-top-color", "initial": "inherit"},
@@ -86,7 +88,8 @@
   },
   {
     "prop": "caption-side", "initial": "top",
-    "basic": true
+    "basic": true,
+    "inherited": true
   },
   {
     "prop": "clear", "initial": "none",
@@ -146,11 +149,13 @@
   },
   {
     "prop": "cursor", "initial": "auto",
-    "basic": true
+    "basic": true,
+    "inherited": true
   },
   {
     "prop": "direction", "initial": "ltr",
-    "basic": true
+    "basic": true,
+    "inherited": true
   },
   {
     "prop": "display", "initial": "inline",
@@ -158,7 +163,8 @@
   },
   {
     "prop": "empty-cells", "initial": "show",
-    "basic": true
+    "basic": true,
+    "inherited": true
   },
   {
     "prop": "float", "initial": "none",
@@ -167,14 +173,18 @@
   {
     "prop": "font",
     "initial": "{{font-style}} {{font-variant}} {{font-weight}} {{font-size}}/{{line-height}} {{font-family}}",
-    "combined": true
+    "combined": true,
+    "inherited": true
   },
   {"prop": "font-family", "initial": "inherit"},
   {"prop": "font-size", "initial": "medium"},
   {"prop": "font-style", "initial": "normal"},
   {"prop": "font-variant", "initial": "normal"},
   {"prop": "font-weight", "initial": "normal"},
-  {"prop": "line-height", "initial": "normal"},
+  {
+    "prop": "line-height", "initial": "normal",
+    "inherited": true
+  },
   {
     "prop": "height", "initial": "auto",
     "basic": true
@@ -190,12 +200,14 @@
   },
   {
     "prop": "letter-spacing", "initial": "normal",
-    "basic": true
+    "basic": true,
+    "inherited": true
   },
   {
     "prop": "list-style",
     "initial": "{{list-style-type}} {{list-style-position}} {{list-style-image}}",
-    "combined": true
+    "combined": true,
+    "inherited": true
   },
   {"prop": "list-style-image", "initial": "none"},
   {"prop": "list-style-position", "initial": "outside"},
@@ -294,7 +306,8 @@
   },
   {
     "prop": "tab-size", "initial": "8",
-    "basic": true
+    "basic": true,
+    "inherited": true
   },
   {
     "prop": "table-layout", "initial": "auto",
@@ -302,11 +315,13 @@
   },
   {
     "prop": "text-align", "initial": "inherit",
-    "basic": true
+    "basic": true,
+    "inherited": true
   },
   {
     "prop": "text-align-last", "initial": "auto",
-    "basic": true
+    "basic": true,
+    "inherited": true
   },
   {
     "prop": "text-decoration",
@@ -318,15 +333,18 @@
   {"prop": "text-decoration-style", "initial": "solid"},
   {
     "prop": "text-indent", "initial": "0",
-    "basic": true
+    "basic": true,
+    "inherited": true
   },
   {
     "prop": "text-shadow", "initial": "none",
-    "basic": true
+    "basic": true,
+    "inherited": true
   },
   {
     "prop": "text-transform", "initial": "none",
-    "basic": true
+    "basic": true,
+    "inherited": true
   },
   {
     "prop": "top", "initial": "auto",
@@ -363,15 +381,18 @@
   },
   {
     "prop": "visibility", "initial": "visible",
-    "basic": true
+    "basic": true,
+    "inherited": true
   },
   {
     "prop": "white-space", "initial": "normal",
-    "basic": true
+    "basic": true,
+    "inherited": true
   },
   {
     "prop": "widows", "initial": "0",
-    "basic": true
+    "basic": true,
+    "inherited": true
   },
   {
     "prop": "width", "initial": "auto",
@@ -379,7 +400,8 @@
   },
   {
     "prop": "word-spacing", "initial": "normal",
-    "basic": true
+    "basic": true,
+    "inherited": true
   },
   {
     "prop": "z-index", "initial": "auto",
