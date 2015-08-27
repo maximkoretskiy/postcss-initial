@@ -1,21 +1,24 @@
 [
   {
     "prop": "animation",
-    "initial": "{{animation-name}} {{animation-duration}} {{animation-timing-function}} {{animation-delay}} {{animation-iteration-count}} {{animation-direction}} {{animation-fill-mode}} {{animation-play-state}}",
+    "initial": "${animation-name} ${animation-duration} ${animation-timing-function} ${animation-delay} ${animation-iteration-count} ${animation-direction} ${animation-fill-mode} ${animation-play-state}",
     "combined": true
   },
-  {"prop": "animation-delay", "initial": "0"},
+  {"prop": "animation-delay", "initial": "0s"},
   {"prop": "animation-direction", "initial": "normal"},
-  {"prop": "animation-duration", "initial": "0"},
+  {"prop": "animation-duration", "initial": "0s"},
   {"prop": "animation-fill-mode", "initial": "none"},
   {"prop": "animation-iteration-count", "initial": "1"},
   {"prop": "animation-name", "initial": "none"},
   {"prop": "animation-play-state", "initial": "running"},
   {"prop": "animation-timing-function", "initial": "ease"},
-  {"prop": "backface-visibility", "initial": "visible"},
+  {
+    "prop": "backface-visibility", "initial": "visible",
+    "basic": true
+  },
   {
     "prop": "background",
-    "initial": "{{background-color}} {{background-image}} {{background-repeat}} {{background-position}} / {{background-size}} {{background-origin}} {{background-clip}} {{background-attachment}}",
+    "initial": "${background-color} ${background-image} ${background-repeat} ${background-position} / ${background-size} ${background-origin} ${background-clip} ${background-attachment}",
     "combined": true
   },
   {"prop": "background-attachment", "initial": "scroll"},
@@ -30,7 +33,7 @@
   {"prop": "background-size", "initial": "auto auto"},
   {
     "prop": "border",
-    "initial": "{{border-width}} {{border-style}} {{border-color}}",
+    "initial": "${border-width} ${border-style} ${border-color}",
     "combined": true
   },
   {"prop": "border-style", "initial": "none"},
@@ -121,7 +124,7 @@
   },
   {
     "prop": "column-rule",
-    "initial": "{{column-rule-width}} {{column-rule-style}} {{column-rule-color}}",
+    "initial": "${column-rule-width} ${column-rule-style} ${column-rule-color}",
     "combined": true
   },
   {"prop": "column-rule-color", "initial": "currentColor"},
@@ -172,7 +175,7 @@
   },
   {
     "prop": "font",
-    "initial": "{{font-style}} {{font-variant}} {{font-weight}} {{font-size}}/{{line-height}} {{font-family}}",
+    "initial": "${font-style} ${font-variant} ${font-weight} ${font-stretch} ${font-size}/${line-height} ${font-family}",
     "combined": true,
     "inherited": true
   },
@@ -181,6 +184,7 @@
   {"prop": "font-style", "initial": "normal"},
   {"prop": "font-variant", "initial": "normal"},
   {"prop": "font-weight", "initial": "normal"},
+  {"prop": "font-stretch", "initial": "normal"},
   {
     "prop": "line-height", "initial": "normal",
     "inherited": true
@@ -205,7 +209,7 @@
   },
   {
     "prop": "list-style",
-    "initial": "{{list-style-type}} {{list-style-position}} {{list-style-image}}",
+    "initial": "${list-style-type} ${list-style-position} ${list-style-image}",
     "combined": true,
     "inherited": true
   },
@@ -246,7 +250,7 @@
   },
   {
     "prop": "outline",
-    "initial": "{{outline-width}} {{outline-style}} {{outline-color}}",
+    "initial": "${outline-width} ${outline-style} ${outline-color}",
     "combined": true
   },
   {"prop": "outline-color", "initial": "invert"},
@@ -325,10 +329,11 @@
   },
   {
     "prop": "text-decoration",
-    "initial": "{{text-decoration-line}} {{text-decoration-style}} {{text-decoration-color}}",
+    "initial": "${text-decoration-line} ${text-decoration-style} ${text-decoration-color}",
     "combined": true
   },
-  {"prop": "text-decoration-color", "initial": "inherit"},
+  {"prop": "text-decoration-color", "initial": "inherited"},
+  {"prop": "text-decoration-color", "initial": "currentColor"},
   {"prop": "text-decoration-line", "initial": "none"},
   {"prop": "text-decoration-style", "initial": "solid"},
   {
@@ -364,7 +369,7 @@
   },
   {
     "prop": "transition",
-    "initial": "{{transition-property}} {{transition-duration}} {{transition-timing-function}} {{transition-delay}}",
+    "initial": "${transition-property} ${transition-duration} ${transition-timing-function} ${transition-delay}",
     "combined": true
   },
   {"prop": "transition-delay", "initial": "0s"},
