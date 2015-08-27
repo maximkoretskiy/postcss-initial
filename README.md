@@ -1,16 +1,36 @@
-# PostCSS `all` fallback  [![Build Status][ci-img]][ci]
+# PostCSS Initial  [![Build Status][ci-img]][ci]
 
 <img align="right" width="135" height="95"
      title="Philosopher’s stone, logo of PostCSS"
      src="http://postcss.github.io/postcss/logo-leftp.png">
 
-[PostCSS] plugin to fallback `all: initial`.
+[PostCSS] plugin to fallback `initial` keyword.
 
 [PostCSS]: https://github.com/postcss/postcss
-[ci-img]:  https://travis-ci.org/maximkoretskiy/postcss-all-property.svg
-[ci]:      https://travis-ci.org/maximkoretskiy/postcss-all-property
+[ci-img]:  https://travis-ci.org/maximkoretskiy/postcss-initial.svg
+[ci]:      https://travis-ci.org/maximkoretskiy/postcss-initial
 
+```css
+a{
+  animation: initial;
+  background: initial;
+  white-space: initial;
+}
+```
 
+```css
+a{
+  animation: none 0s ease 0s 1 normal none running;
+  animation: initial;
+  background: transparent none repeat 0 0 / auto auto padding-box border-box scroll;
+  background: initial;
+  white-space: normal;
+  white-space: initial;
+}
+```
+
+**Killer-feature!**  
+Universal reset from future css!
 ```css
 a{
   all: initial;
@@ -104,7 +124,7 @@ a {
 
 ### reset
 Takes `string`.  
-Describes what subset of rules should be unseted.
+Describes what subset of rules should be unseted with `all` property(to reduce code weight).  
 Posible subsets: `all`, `inherited`.  
 Default value: `'all'`.  
 
