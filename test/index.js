@@ -15,17 +15,35 @@ function f(name) {
   return fs.readFileSync(fullName, 'utf8');
 }
 
-describe('postcss-all-unset', function () {
-  it('Insert default styles', function () {
+describe('postcss-initial', function () {
+  it('simple propperties', function () {
     test(
-      f('default'),
-      f('default.expected')
+      f('simple'),
+      f('simple.expected')
     );
   });
-  it('Insert subseted styles - only inherited', function () {
+  it('combined propperties', function () {
     test(
-      f('inherited'),
-      f('inherited.expected'),
+      f('combined'),
+      f('combined.expected')
+    );
+  });
+  it('unknown propperties', function () {
+    test(
+      f('unknown'),
+      f('unknown.expected')
+    );
+  });
+  it('all:initial - default styles', function () {
+    test(
+      f('all-initial-default'),
+      f('all-initial-default.expected')
+    );
+  });
+  it('all:initial - only inherited', function () {
+    test(
+      f('all-initial-inherited'),
+      f('all-initial-inherited.expected'),
       { reset: 'inherited' }
     );
   });
