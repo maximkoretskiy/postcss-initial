@@ -5,10 +5,9 @@ div {
   cursor: auto;
   direction: ltr;
   empty-cells: show;
-  font: normal normal normal normal medium normal sans-serif;
+  font: normal normal normal normal medium/normal inherit;
   hyphens: none;
   letter-spacing: normal;
-  line-height: normal;
   list-style: disc outside none;
   tab-size: 8;
   text-align: inherit;

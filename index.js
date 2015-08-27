@@ -1,15 +1,16 @@
 var postcss = require('postcss');
-var rulesFabric = require('./lib/rules-fabric');
+var makeFallbackFunction = require('./lib/rules-fabric');
 
 module.exports = postcss.plugin('postcss-all-unset', function (opts) {
   opts = opts || {};
   opts.reset = opts.reset || 'all';
-  var resetSubset = opts.reset === 'inherited' ? ['inherited'] : ['all'];
-  var resetRules = rulesFabric(resetSubset);
+  var getFallback = makeFallbackFunction(opts.reset === 'inherited');
   return function (css) {
-    css.walkDecls('all', function (decl) {
+    css.walkDecls(function (decl) {
       if(decl.value !== 'initial') return;
-      resetRules.forEach(function (rule) {
+      var fallBackRules = getFallback(decl.prop);
+      if(fallBackRules.length === 0) return;
+      fallBackRules.forEach(function (rule) {
         decl.cloneBefore(rule);
       });
     });

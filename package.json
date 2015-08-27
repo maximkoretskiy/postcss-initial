@@ -15,6 +15,7 @@
     "url": "https://github.com/maximkoretskiy/postcss-all-propeprty.git"
   },
   "dependencies": {
+    "lodash.template": "^3.6.2",
     "postcss": "^5.0.2"
   },
   "devDependencies": {
