@@ -1,7 +1,7 @@
 {
-  "name": "postcss-all-propeprty",
+  "name": "postcss-initial",
   "version": "1.3.0",
-  "description": "PostCSS plugin for all propeprty",
+  "description": "PostCSS plugin to fallback initial keyword.",
   "keywords": [
     "postcss",
     "css",
@@ -12,7 +12,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/maximkoretskiy/postcss-all-propeprty.git"
+    "url": "https://github.com/maximkoretskiy/postcss-initial.git"
   },
   "dependencies": {
     "lodash.template": "^3.6.2",
