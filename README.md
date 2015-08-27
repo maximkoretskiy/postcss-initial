@@ -1,4 +1,4 @@
-# PostCSS Initial  [![Build Status][ci-img]][ci]
+# PostCSS Initial  [![Build Status][ci-img]][ci] [![NPM Module][npm-img]][npm]
 
 <img align="right" width="135" height="95"
      title="Philosopher’s stone, logo of PostCSS"
@@ -9,6 +9,8 @@
 [PostCSS]: https://github.com/postcss/postcss
 [ci-img]:  https://travis-ci.org/maximkoretskiy/postcss-initial.svg
 [ci]:      https://travis-ci.org/maximkoretskiy/postcss-initial
+[npm-img]: https://badge.fury.io/js/postcss-initial.svg
+[npm]:     https://www.npmjs.com/package/postcss-initial
 
 ```css
 a{
