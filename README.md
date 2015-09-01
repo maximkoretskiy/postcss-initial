@@ -1,4 +1,5 @@
-# PostCSS Initial  [![Build Status][ci-img]][ci] [![NPM Module][npm-img]][npm]
+# PostCSS Initial  
+[![Build Status][ci-img]][ci] [![NPM Module][npm-img]][npm] ![David DM][david-img]
 
 <img align="right" width="135" height="95"
      title="Philosopher’s stone, logo of PostCSS"
@@ -11,9 +12,10 @@
 [ci]:      https://travis-ci.org/maximkoretskiy/postcss-initial
 [npm-img]: https://badge.fury.io/js/postcss-initial.svg
 [npm]:     https://www.npmjs.com/package/postcss-initial
+[david-img]:   https://david-dm.org/maximkoretskiy/postcss-initial.svg
 
 ```css
-a{
+a {
   animation: initial;
   background: initial;
   white-space: initial;
@@ -31,10 +33,10 @@ a{
 }
 ```
 
-**Killer-feature!**  
+**Killer feature!**  
 Universal reset from future css!
 ```css
-a{
+a {
   all: initial;
 }
 ```
@@ -126,7 +128,7 @@ a {
 
 ### reset
 Takes `string`.  
-Describes what subset of rules should be unseted with `all` property(to reduce code weight).  
+Describes what subset of rules should be unsetted with `all` property (to reduce code weight).  
 Posible subsets: `all`, `inherited`.  
 Default value: `'all'`.  
 
@@ -139,8 +141,3 @@ postcss([ require('postcss-all-property')({
 ```
 
 See [PostCSS] docs for examples for your environment.
-
-## Backlog 
-
-- display 
-- redifine property
