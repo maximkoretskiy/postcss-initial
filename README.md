@@ -1,5 +1,5 @@
 # PostCSS Initial  
-[![Build Status][ci-img]][ci] [![NPM Module][npm-img]][npm] ![David DM][david-img]
+[![Build Status][ci-img]][ci] [![NPM Module][npm-img]][npm] [![David DM][david-img]][david]
 
 <img align="right" width="135" height="95"
      title="Philosopher’s stone, logo of PostCSS"
@@ -13,6 +13,7 @@
 [npm-img]: https://badge.fury.io/js/postcss-initial.svg
 [npm]:     https://www.npmjs.com/package/postcss-initial
 [david-img]:   https://david-dm.org/maximkoretskiy/postcss-initial.svg
+[david]:   https://david-dm.org/maximkoretskiy/postcss-initial
 
 ```css
 a {
@@ -23,7 +24,7 @@ a {
 ```
 
 ```css
-a{
+a {
   animation: none 0s ease 0s 1 normal none running;
   animation: initial;
   background: transparent none repeat 0 0 / auto auto padding-box border-box scroll;
