@@ -5,7 +5,8 @@
      title="Philosopher’s stone, logo of PostCSS"
      src="http://postcss.github.io/postcss/logo-leftp.png">
 
-[PostCSS] plugin to fallback `initial` keyword.
+[PostCSS] plugin to fallback `initial` keyword. Very useful in combination with
+[postcss-autoreset][reset].
 
 [PostCSS]: https://github.com/postcss/postcss
 [ci-img]:  https://travis-ci.org/maximkoretskiy/postcss-initial.svg
@@ -14,6 +15,8 @@
 [npm]:     https://www.npmjs.com/package/postcss-initial
 [david-img]:   https://david-dm.org/maximkoretskiy/postcss-initial.svg
 [david]:   https://david-dm.org/maximkoretskiy/postcss-initial
+[reset]:   https://github.com/maximkoretskiy/postcss-autoreset
+
 
 ```css
 a {
