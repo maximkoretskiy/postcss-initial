@@ -131,15 +131,23 @@ a {
 ## Options
 
 ### reset
+
 Takes `string`.
+
 Describes what subset of rules should be unsetted with `all` property (to reduce code weight).
-Posible subsets: `all`, `inherited`.
+
+Possible subsets: `all`, `inherited`.
+
 Default value: `'all'`.
 
 ### replace
+
 Takes `boolean`.
+
 Replace the `initial` with the fallback instead of adding it.
-Posible subsets: `true`, `false`.
+
+Possible subsets: `true`, `false`.
+
 Default value: `false`.
 
 ## Usage
