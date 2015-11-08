@@ -1,7 +1,7 @@
 var postcss = require('postcss');
 var makeFallbackFunction = require('./lib/rules-fabric');
 
-module.exports = postcss.plugin('postcss-all-unset', function (opts) {
+module.exports = postcss.plugin('postcss-initial', function (opts) {
   opts = opts || {};
   opts.reset = opts.reset || 'all';
   var getFallback = makeFallbackFunction(opts.reset === 'inherited');
