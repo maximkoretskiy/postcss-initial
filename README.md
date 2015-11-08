@@ -37,7 +37,7 @@ a {
 }
 ```
 
-**Killer feature!**
+**Killer feature!**  
 Universal reset from future css!
 ```css
 a {
@@ -132,23 +132,17 @@ a {
 
 ### reset
 
-Takes `string`.
-
-Describes what subset of rules should be unsetted with `all` property (to reduce code weight).
-
-Possible subsets: `all`, `inherited`.
-
-Default value: `'all'`.
+Takes `string`.  
+Describes what subset of rules should be unsetted with `all` property (to reduce code weight).  
+Possible subsets: `all`, `inherited`.  
+Default value: `'all'`.  
 
 ### replace
 
-Takes `boolean`.
-
-Replace the `initial` with the fallback instead of adding it.
-
-Possible subsets: `true`, `false`.
-
-Default value: `false`.
+Takes `boolean`.  
+Replace the `initial` with the fallback instead of adding it.  
+Possible subsets: `true`, `false`.  
+Default value: `false`.  
 
 ## Usage
 
