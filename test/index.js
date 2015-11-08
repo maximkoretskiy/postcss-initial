@@ -16,19 +16,19 @@ function f(name) {
 }
 
 describe('postcss-initial', function () {
-  it('simple propperties', function () {
+  it('simple properties', function () {
     test(
       f('simple'),
       f('simple.expected')
     );
   });
-  it('combined propperties', function () {
+  it('combined properties', function () {
     test(
       f('combined'),
       f('combined.expected')
     );
   });
-  it('unknown propperties', function () {
+  it('unknown properties', function () {
     test(
       f('unknown'),
       f('unknown.expected')
@@ -45,6 +45,13 @@ describe('postcss-initial', function () {
       f('all-initial-inherited'),
       f('all-initial-inherited.expected'),
       { reset: 'inherited' }
+    );
+  });
+  it('simple properties - replaced', function () {
+    test(
+      f('simple-replace'),
+      f('simple-replace.expected'),
+      { replace: true }
     );
   });
 });
