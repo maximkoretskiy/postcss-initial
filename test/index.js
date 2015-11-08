@@ -54,4 +54,11 @@ describe('postcss-initial', function () {
       { replace: true }
     );
   });
+  it('combined properties - replaced', function () {
+    test(
+      f('combined-replace'),
+      f('combined-replace.expected'),
+      { replace: true }
+    );
+  });
 });
