@@ -1,4 +1,4 @@
-# PostCSS Initial  
+# PostCSS Initial
 [![Build Status][ci-img]][ci] [![NPM Module][npm-img]][npm] [![David DM][david-img]][david]
 
 <img align="right" width="135" height="95"
@@ -37,7 +37,7 @@ a {
 }
 ```
 
-**Killer feature!**  
+**Killer feature!**
 Universal reset from future css!
 ```css
 a {
@@ -131,15 +131,15 @@ a {
 ## Options
 
 ### reset
-Takes `string`.  
-Describes what subset of rules should be unsetted with `all` property (to reduce code weight).  
-Posible subsets: `all`, `inherited`.  
-Default value: `'all'`.  
+Takes `string`.
+Describes what subset of rules should be unsetted with `all` property (to reduce code weight).
+Posible subsets: `all`, `inherited`.
+Default value: `'all'`.
 
 ## Usage
 
 ```js
-postcss([ require('postcss-all-property')({
+postcss([ require('postcss-initial')({
   reset: 'inherited' // reset only inherited rules
 }) ])
 ```
