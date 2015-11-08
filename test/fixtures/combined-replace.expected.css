@@ -7,5 +7,4 @@ a {
   list-style: disc outside none;
   outline: medium none invert;
   text-decoration: none solid currentColor;
-  text-decoration: initial;
 }
