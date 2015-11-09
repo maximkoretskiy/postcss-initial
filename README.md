@@ -141,7 +141,6 @@ Default value: `'all'`.
 
 Takes `boolean`.  
 Replace the `initial` with the fallback instead of adding it.  
-Possible subsets: `true`, `false`.  
 Default value: `false`.  
 
 ## Usage
