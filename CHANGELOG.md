@@ -9,3 +9,6 @@ Rename project to fit standards (plugin name is **postcss-all-property**)
 
 ## 1.3 
 Rename project to make it more universal (plugin name is **postcss-initial**)
+
+## 1.4
+Add replace option
