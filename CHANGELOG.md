@@ -4,6 +4,8 @@ All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
+
+# [1.4.1] - 2016-02-05
  - Remove gulp from workflow, using npm-scrips only
  - Update lodash.template@4
  - Fix browser compatibility issues(font, orphans, widows, text-decoration). Thnx to @kinday for issue.
