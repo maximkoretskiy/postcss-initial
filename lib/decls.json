@@ -175,8 +175,16 @@
   },
   {
     "prop": "font",
-    "initial": "${font-style} ${font-variant} ${font-weight} ${font-stretch} ${font-size}/${line-height} ${font-family}",
-    "combined": true,
+    "contains": [
+      "font-style",
+      "font-variant",
+      "font-weight",
+      "font-stretch",
+      "font-size",
+      "line-height",
+      "font-family"
+    ],
+    "basic": true,
     "inherited": true
   },
   {"prop": "font-family", "initial": "inherit"},
@@ -245,7 +253,7 @@
     "basic": true
   },
   {
-    "prop": "orphans", "initial": "0",
+    "prop": "orphans", "initial": "2",
     "basic": true
   },
   {
@@ -329,7 +337,7 @@
   },
   {
     "prop": "text-decoration",
-    "initial": "${text-decoration-line} ${text-decoration-style} ${text-decoration-color}",
+    "initial": "${text-decoration-line}",
     "combined": true
   },
   {"prop": "text-decoration-color", "initial": "inherited"},
@@ -395,7 +403,7 @@
     "inherited": true
   },
   {
-    "prop": "widows", "initial": "0",
+    "prop": "widows", "initial": "2",
     "basic": true,
     "inherited": true
   },

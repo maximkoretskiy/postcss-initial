@@ -5,7 +5,13 @@ div {
   cursor: auto;
   direction: ltr;
   empty-cells: show;
-  font: normal normal normal normal medium/normal inherit;
+  font-family: inherit;
+  font-size: medium;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  font-stretch: normal;
+  line-height: normal;
   hyphens: none;
   letter-spacing: normal;
   list-style: disc outside none;
@@ -17,7 +23,7 @@ div {
   text-transform: none;
   visibility: visible;
   white-space: normal;
-  widows: 0;
+  widows: 2;
   word-spacing: normal;
   all: initial;
 }
