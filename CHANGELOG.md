@@ -4,6 +4,7 @@ All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
+ - Remove gulp from workflow, using npm-scrips only
 
 ## [1.4] - 2015-11-08
  - Added `replace` option. Thanks to @sylvainbaronnet
