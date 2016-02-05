@@ -49,11 +49,11 @@ a {
 a {
   animation: none 0s ease 0s 1 normal none running;
   backface-visibility: visible;
-  background: transparent none repeat 0% 0% / auto auto padding-box border-box scroll;
+  background: transparent none repeat 0 0 / auto auto padding-box border-box scroll;
   border: medium none currentColor;
-  border-radius: 0;
   border-collapse: separate;
   border-image: none;
+  border-radius: 0;
   border-spacing: 0;
   bottom: auto;
   box-shadow: none;
@@ -77,12 +77,17 @@ a {
   display: inline;
   empty-cells: show;
   float: none;
-  font: normal normal normal normal medium normal sans-serif;
+  font-family: inherit;
+  font-size: medium;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  font-stretch: normal;
+  line-height: normal;
   height: auto;
   hyphens: none;
   left: auto;
   letter-spacing: normal;
-  line-height: normal;
   list-style: disc outside none;
   margin: 0;
   max-height: none;
@@ -90,7 +95,7 @@ a {
   min-height: 0;
   min-width: 0;
   opacity: 1;
-  orphans: 0;
+  orphans: 2;
   outline: medium none invert;
   overflow: visible;
   overflow-x: visible;
@@ -107,7 +112,7 @@ a {
   table-layout: auto;
   text-align: inherit;
   text-align-last: auto;
-  text-decoration: none solid currentColor;
+  text-decoration: none;
   text-indent: 0;
   text-shadow: none;
   text-transform: none;
@@ -115,12 +120,12 @@ a {
   transform: none;
   transform-origin: 50% 50% 0;
   transform-style: flat;
-  transition: none;
+  transition: none 0s ease 0s;
   unicode-bidi: normal;
   vertical-align: baseline;
   visibility: visible;
   white-space: normal;
-  widows: 0;
+  widows: 2;
   width: auto;
   word-spacing: normal;
   z-index: auto;
