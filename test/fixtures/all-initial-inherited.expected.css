@@ -5,7 +5,7 @@ div {
   cursor: auto;
   direction: ltr;
   empty-cells: show;
-  font-family: inherit;
+  font-family: serif;
   font-size: medium;
   font-style: normal;
   font-variant: normal;
@@ -16,7 +16,7 @@ div {
   letter-spacing: normal;
   list-style: disc outside none;
   tab-size: 8;
-  text-align: inherit;
+  text-align: left;
   text-align-last: auto;
   text-indent: 0;
   text-shadow: none;

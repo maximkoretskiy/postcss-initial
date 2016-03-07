@@ -40,7 +40,7 @@
   {"prop": "border-width", "initial": "medium"},
   {"prop": "border-color", "initial": "currentColor"},
   {"prop": "border-bottom", "initial": "0"},
-  {"prop": "border-bottom-color", "initial": "inherit"},
+  {"prop": "border-bottom-color", "initial": "currentColor"},
   {"prop": "border-bottom-left-radius", "initial": "0"},
   {"prop": "border-bottom-right-radius", "initial": "0"},
   {"prop": "border-bottom-style", "initial": "none"},
@@ -55,7 +55,7 @@
     "basic": true
   },
   {"prop": "border-left", "initial": "0"},
-  {"prop": "border-left-color", "initial": "inherit"},
+  {"prop": "border-left-color", "initial": "currentColor"},
   {"prop": "border-left-style", "initial": "none"},
   {"prop": "border-left-width", "initial": "medium"},
   {
@@ -63,7 +63,7 @@
     "basic": true
   },
   {"prop": "border-right", "initial": "0"},
-  {"prop": "border-right-color", "initial": "inherit"},
+  {"prop": "border-right-color", "initial": "currentColor"},
   {"prop": "border-right-style", "initial": "none"},
   {"prop": "border-right-width", "initial": "medium"},
   {
@@ -72,7 +72,7 @@
     "inherited": true
   },
   {"prop": "border-top", "initial": "0"},
-  {"prop": "border-top-color", "initial": "inherit"},
+  {"prop": "border-top-color", "initial": "currentColor"},
   {"prop": "border-top-left-radius", "initial": "0"},
   {"prop": "border-top-right-radius", "initial": "0"},
   {"prop": "border-top-style", "initial": "none"},
@@ -103,7 +103,7 @@
     "basic": true
   },
   {
-    "prop": "color", "initial": "inherit",
+    "prop": "color", "initial": "#000",
     "basic": true
   },
   {
@@ -187,7 +187,7 @@
     "basic": true,
     "inherited": true
   },
-  {"prop": "font-family", "initial": "inherit"},
+  {"prop": "font-family", "initial": "serif"},
   {"prop": "font-size", "initial": "medium"},
   {"prop": "font-style", "initial": "normal"},
   {"prop": "font-variant", "initial": "normal"},
@@ -326,7 +326,7 @@
     "basic": true
   },
   {
-    "prop": "text-align", "initial": "inherit",
+    "prop": "text-align", "initial": "left",
     "basic": true,
     "inherited": true
   },
