@@ -61,7 +61,7 @@ a {
   caption-side: top;
   clear: none;
   clip: auto;
-  color: inherit;
+  color: #000;
   columns: auto;
   column-count: auto;
   column-fill: balance;
@@ -77,7 +77,7 @@ a {
   display: inline;
   empty-cells: show;
   float: none;
-  font-family: inherit;
+  font-family: serif;
   font-size: medium;
   font-style: normal;
   font-variant: normal;
@@ -110,7 +110,7 @@ a {
   right: auto;
   tab-size: 8;
   table-layout: auto;
-  text-align: inherit;
+  text-align: left;
   text-align-last: auto;
   text-decoration: none;
   text-indent: 0;
