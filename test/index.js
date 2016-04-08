@@ -61,4 +61,11 @@ describe('postcss-initial', function () {
       { replace: true }
     );
   });
+  it('mutivalue - replaced', function () {
+    test(
+      f('multivalue-replace'),
+      f('multivalue-replace.expected'),
+      { replace: true }
+    );
+  });
 });
