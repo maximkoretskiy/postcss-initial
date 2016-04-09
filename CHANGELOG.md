@@ -5,11 +5,14 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
 
-# [1.5.0] - 2016-03-09
+# [1.5.1] - 2016-04-09
+Added support of multiple initial values in property. Thanks to @johnbender for issue and contribution.
+
+## [1.5.0] - 2016-03-09
  - Fix some props with inherit values to more specific values. Thnx @dzhiriki  for issue.
  - Update deps
 
-# [1.4.1] - 2016-02-05
+## [1.4.1] - 2016-02-05
  - Remove gulp from workflow, using npm-scrips only
  - Update lodash.template@4
  - Fix browser compatibility issues(font, orphans, widows, text-decoration). Thnx to @kinday for issue.

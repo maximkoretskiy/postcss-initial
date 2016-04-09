@@ -24,6 +24,11 @@ a {
   background: initial;
   white-space: initial;
 }
+p {
+  background: url(/img1.png),
+              url(/img2.png);
+  background-repeat: initial no-repeat
+}
 ```
 
 ```css
@@ -34,6 +39,11 @@ a {
   background: initial;
   white-space: normal;
   white-space: initial;
+}
+p {
+  background: url(/img1.png),
+              url(/img2.png);
+  background-repeat: repeat no-repeat
 }
 ```
 
@@ -157,3 +167,5 @@ postcss([ require('postcss-initial')({
 ```
 
 See [PostCSS] docs for examples for your environment.
+
+## [Changelog](./CHANGELOG.md)
