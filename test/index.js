@@ -34,6 +34,12 @@ describe('postcss-initial', function () {
       f('unknown.expected')
     );
   });
+  it('no duplication', function () {
+    test(
+      f('no-duplication'),
+      f('no-duplication.expected')
+    );
+  });
   it('all:initial - default styles', function () {
     test(
       f('all-initial-default'),
