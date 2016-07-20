@@ -5,7 +5,12 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
 
-# [1.5.1] - 2016-04-09
+## [1.5.2] - 2016-07-20
+Fix rules duplication in case when user added own fallback for rule.
+See [#18](https://github.com/maximkoretskiy/postcss-initial/issues/18).
+Thanks to @ChaosExAnima for suggestion and PR.
+
+## [1.5.1] - 2016-04-09
 Added support of multiple initial values in property. Thanks to @johnbender for issue and contribution.
 
 ## [1.5.0] - 2016-03-09
