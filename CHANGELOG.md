@@ -5,6 +5,9 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
 
+## [1.5.3] - 2016-11-30
+ - Add `.eslintrc` to `.npmignore` Thanks to @wtgtybhertgeghgtwtg for pr [#20](https://github.com/maximkoretskiy/postcss-initial/pull/20)
+
 ## [1.5.2] - 2016-07-20
 Fix rules duplication in case when user added own fallback for rule.
 See [#18](https://github.com/maximkoretskiy/postcss-initial/issues/18).
