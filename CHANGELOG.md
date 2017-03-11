@@ -5,6 +5,7 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
  - Add yarn
+ - Update dependcies
 
 ## [1.5.3] - 2016-11-30
  - Add `.eslintrc` to `.npmignore` Thanks to @wtgtybhertgeghgtwtg for pr [#20](https://github.com/maximkoretskiy/postcss-initial/pull/20)
