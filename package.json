@@ -1,6 +1,6 @@
 {
   "name": "postcss-initial",
-  "version": "1.5.3",
+  "version": "2.0.0",
   "description": "PostCSS plugin to fallback initial keyword.",
   "keywords": [
     "postcss",
