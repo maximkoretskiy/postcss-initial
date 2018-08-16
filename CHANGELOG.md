@@ -5,6 +5,9 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
 
+## [3.0.0] - 2018-08-16
+ - Upgrade PostCSS to 7.0.2. It breaks node@4 support. Thanks to @ansballard for contribution
+
 ## [2.0.0] - 2016-05-09
  - Add yarn
  - Update dependcies. Thanks to @Semigradsky
