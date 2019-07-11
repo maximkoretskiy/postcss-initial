@@ -5,6 +5,9 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
 
+## [3.0.1] - 2019-08-09
+ - Fix lodash.template vulnerability. See https://github.com/lodash/lodash/pull/4336
+
 ## [3.0.0] - 2018-08-16
  - Upgrade PostCSS to 7.0.2. It breaks node@4 support. Thanks to @ansballard for contribution
 
