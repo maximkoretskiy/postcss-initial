@@ -15,7 +15,7 @@
     "url": "https://github.com/maximkoretskiy/postcss-initial.git"
   },
   "dependencies": {
-    "lodash.template": "^4.2.4",
+    "lodash.template": "^4.5.0",
     "postcss": "^7.0.2"
   },
   "devDependencies": {
