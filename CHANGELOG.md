@@ -1,9 +1,8 @@
-# Change Log
+# Changelog
 
-All notable changes to this project will be documented in this file.
-This project adheres to [Semantic Versioning](http://semver.org/).
+All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
-## [Unreleased]
+### [3.0.2](https://github.com/maximkoretskiy/postcss-initial/compare/v3.0.1...v3.0.2) (2019-10-31)
 
 ## [3.0.1] - 2019-08-09
  - Fix lodash.template vulnerability. See https://github.com/lodash/lodash/pull/4336

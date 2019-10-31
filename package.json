@@ -1,6 +1,6 @@
 {
   "name": "postcss-initial",
-  "version": "3.0.1",
+  "version": "3.0.2",
   "description": "PostCSS plugin to fallback initial keyword.",
   "keywords": [
     "postcss",
@@ -33,11 +33,13 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "npm test",
-      "pre-push": "npm test"
+      "pre-commit": "yarn test",
+      "pre-push": "yarn test"
     }
   },
   "standard-version": {
-    "prerelease": "npm run test"
+    "scripts": {
+      "prerelease": "yarn test"
+    }
   }
 }
