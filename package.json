@@ -21,11 +21,23 @@
   "devDependencies": {
     "chai": "3.5.0",
     "eslint": "^4.18.2",
-    "mocha": "^3.3.0"
+    "mocha": "^3.3.0",
+    "husky": "^3.0.9",
+    "standard-version": "^7.0.0"
   },
   "scripts": {
     "lint": "eslint *.js ./lib/ ./test/",
     "test": "npm run lint && mocha",
-    "tdd": "mocha -w --watch-extensions js,json,css"
+    "tdd": "mocha -w --watch-extensions js,json,css",
+    "release": "standard-version"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm test",
+      "pre-push": "npm test"
+    }
+  },
+  "standard-version": {
+    "prerelease": "npm run test"
   }
 }
