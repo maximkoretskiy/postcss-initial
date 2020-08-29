@@ -74,4 +74,10 @@ describe('postcss-initial', function () {
       { replace: true }
     );
   });
+  it('negative', function () {
+    test(
+      f('negative'),
+      f('negative.expected')
+    );
+  });
 });
