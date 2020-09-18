@@ -34,3 +34,5 @@ module.exports = function postcssInitial(opts) {
     }
   };
 };
+
+module.exports.postcss = true;
