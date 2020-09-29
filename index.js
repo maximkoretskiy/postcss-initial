@@ -18,7 +18,7 @@ module.exports = function postcssInitial(opts) {
   return {
     postcssPlugin: 'postcss-initial',
     Declaration:   function (decl) {
-      if (decl.value.indexOf('initial') < 0) {
+      if (!/\binitial\b/.test(decl.value)) {
         return;
       }
       var fallBackRules = getFallback(decl.prop, decl.value);
