@@ -1,7 +1,6 @@
-var postcss = require('postcss');
 var makeFallbackFunction = require('./lib/rules-fabric');
 
-module.exports = postcss.plugin('postcss-initial', function (opts) {
+module.exports = function postcssInitial(opts) {
   opts = opts || {};
   opts.reset = opts.reset || 'all';
   opts.replace = opts.replace || false;
@@ -15,8 +14,10 @@ module.exports = postcss.plugin('postcss-initial', function (opts) {
     });
     return foundPrev;
   };
-  return function (css) {
-    css.walkDecls(function (decl) {
+
+  return {
+    postcssPlugin: 'postcss-initial',
+    Declaration:   function (decl) {
       if (!/\binitial\b/.test(decl.value)) {
         return;
       }
@@ -30,6 +31,8 @@ module.exports = postcss.plugin('postcss-initial', function (opts) {
       if (opts.replace === true) {
         decl.remove();
       }
-    });
+    }
   };
-});
+};
+
+module.exports.postcss = true;
